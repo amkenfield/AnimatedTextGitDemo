@@ -3,15 +3,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-<<<<<<< HEAD
-    background-color: darkslategray;
-=======
-    background-color: rgb(17, 0, 37);
->>>>>>> try-purple
+    background-color: teal
 }
 
 h1 {
-    font-size: 15rem;
+    font-size: 16rem;
     font-family: Montserrat;
 }
 
