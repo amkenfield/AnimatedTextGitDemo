@@ -1,0 +1,13 @@
+Git Branching Exercise
+
+1) git checkout -b
+2) fast-forward merge is when there's a linear path from the master to the branch being merged into it;
+	the merge has one parent
+   recursive merge is when there are new commits on the master which have occured *after* the branch in question;
+	the merge has two parents
+3) git checkout [name of branch]
+4) git branch -d [name of branch]
+	or for forced deletion
+   git branch -D [name of branch]
+5) when the two parents being merged have code segments which differ and directly conflict;
+	this is flagged by git but must be resolved by the (human) programmer
